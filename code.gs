@@ -18,10 +18,10 @@ function find_and_replace_labels() {
         if(threads.length < 100){ //Cannot process threads with 100 or more mails
           GmailApp.deleteLabel(oldLabel);
           GmailApp.createLabel(newLabel).addToThreads(threads);
-          Logger.log("Successfully processed this label: " + newLabel);
+          Logger.log("Successfully processed this label: " + newLabel.getName());
           replaced_labels.push(newLabel);
         } else {
-          Logger.log("Could not process this label: " + oldLabel);
+          Logger.log("Could not process this label: " + oldLabel.getName());
           not_replaced_labels.push(oldLabel);
         }
 
