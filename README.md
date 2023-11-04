@@ -8,4 +8,4 @@ To use the code
 - Run the code. It may ask you to Authenticate using the Google account for which you want the labels to be renamed
 - Once authenticated, the code will run for some time and the logs can be viewed in the terminal below
 - Once the code finishes running, stats of total labels changed is displayed
-- Check the for the changes by loggin into your Gmail account
+- Check for the changes by logging into your Gmail account
